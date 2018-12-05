@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="or.kosta.dto.MemberVO" alias="memVO" />				
+		<typeAlias type="or.kosta.dto.ShowVO" alias="showvo" />				
+		<typeAlias type="or.kosta.dto.SearchVO" alias="searchvo" />				
+		<typeAlias type="or.kosta.dto.PageVO" alias="pvo" />				
+	</typeAliases>
+</configuration>
