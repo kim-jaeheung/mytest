@@ -8,6 +8,7 @@ public class ComponyController {
 	
 	@RequestMapping(value="/")
 	public String home() {
+		System.out.println("main");
 		
 		
 		return "my_main";
