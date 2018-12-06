@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ <configuration>
+    <typeAliases>
+       <typeAlias type="finalproj.dto.AdminVO" alias="advo"/>
+       <typeAlias type="finalproj.dto.Admin_LoggerVO" alias="adlogvo"/>
+       <typeAlias type="finalproj.dto.AttendVO" alias="attvo"/>
+       <typeAlias type="finalproj.dto.CertVO" alias="crvo"/>
+       <typeAlias type="finalproj.dto.ChatVO" alias="chvo"/>
+       <typeAlias type="finalproj.dto.ClassVO" alias="cvo"/>
+       <typeAlias type="finalproj.dto.CpfeedVO" alias="cpfvo"/>
+       <typeAlias type="finalproj.dto.CplistVO" alias="cpvo"/>
+       <typeAlias type="finalproj.dto.FavlistVO" alias="fvo"/>
+       <typeAlias type="finalproj.dto.GstudentVO" alias="gsvo"/>
+       <typeAlias type="finalproj.dto.JobkeywordVO" alias="keyvo"/>
+       <typeAlias type="finalproj.dto.ResumeVO" alias="rvo"/>
+       <typeAlias type="finalproj.dto.RoleVO" alias="rolvo"/>
+       <typeAlias type="finalproj.dto.SboardVO" alias="bvo"/>
+       <typeAlias type="finalproj.dto.ScheduleVO" alias="shvo"/>
+       <typeAlias type="finalproj.dto.Stu_LoggerVO" alias="slogvo"/>
+       <typeAlias type="finalproj.dto.StudentVO" alias="svo"/>
+       <typeAlias type="finalproj.dto.TeacherVO" alias="tvo"/>
+       <typeAlias type="finalproj.dto.Teacher_LoggerVO" alias="tlogvo"/>
+    </typeAliases>
+ </configuration>
